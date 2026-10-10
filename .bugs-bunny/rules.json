@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "naming": {
+    "files": "camelCase",
+    "methods": "camelCase",
+    "variables": "camelCase"
+  },
+  "standards": {
+    "sonarStyle": true,
+    "owaspTop10": true,
+    "customNotes": "Clean, secure, maintainable code."
+  },
+  "ratingWeights": {
+    "security": 0.25,
+    "correctness": 0.2,
+    "performance": 0.15,
+    "maintainability": 0.15,
+    "readability": 0.1,
+    "documentation": 0.05,
+    "testing": 0.1
+  },
+  "reviewProfile": "general"
+}
